@@ -4,22 +4,19 @@ padding: 0;
 margin: 0;
 background-image: url(img/romson-preechawit-Vy2cHqm0mCs-unsplash.jpg);
 background-size: cover;
+overflow: hidden;
 color: white;
 font-family: 'Lato', sans-serif;
 font-size: 20px;
+height: 100vh;
 display: flex;
 flex-direction: column;
-align-items: center;
+justify-content: space-between;
+
 }
 header{
 	background-color: rgba(2, 1, 1, 0.479);
-	width: 100%;
-}
-#container
-{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;	
 }
 form{
 	display: flex;
